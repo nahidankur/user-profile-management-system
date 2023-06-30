@@ -1,0 +1,30 @@
+{
+  "name": "profile-management-system",
+  "version": "1.0.0",
+  "description": "Profile Management System API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm install  && cd ./frontend && npm install && npm run build"
+  },
+  "author": "Nahid Karim Ankur",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}

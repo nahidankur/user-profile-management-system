@@ -1,0 +1,34 @@
+.navbar {
+	background: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #dfe3e8;
+	border-radius: 0
+}
+
+.navbar .navbar-brand {
+	padding-left: 0;
+	font-size: 20px;
+	padding-right: 50px
+}
+
+.navbar .navbar-brand b {
+	color: #33cabb
+}
+
+.navbar .btn-primary,
+.navbar .btn-primary:active {
+	color: #fff;
+	background: #33cabb !important;
+	border: none
+}
+
+.navbar .btn-primary:focus,
+.navbar .btn-primary:hover {
+	color: #fff;
+	background: #31bfb1 !important
+}
+
+.navbar .action-buttons .dropdown-toggle::after {
+	display: none
+}
